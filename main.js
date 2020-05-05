@@ -1,12 +1,11 @@
 const firstName ='Marek';
-const imieZony ='Magda';
-const age = 40;
-const ageZony = 38;
-const roznica = age - ageZony;
-console.log (`Nazywam się ${firstName} i mam prawie ${age} lat.\nMoja żona ma na imię ${imieZony} i ma ${ageZony} lat.
-Jestem ${roznica} lata starszy od żony.` );
+const wifeName ='Magda';
+const myAge = 40;
+const wifeAge = 38;
+const roznica = myAge - wifeAge;
+console.log (`Mam na imię ${firstName} i mam prawie ${myAge} lat.\nMoja żona ma na imię ${wifeName} i ma ${wifeAge} lat.
+Jestem ${roznica} lata starszy od żony, a te informacje zostały wypisane przy użyciu skryptu main.js.` );
 
-/* 
-alert (`Cześć, mam na imię ${firstName}. 
-Zaglądnij do konsoli aby zobaczyć więcej informacji o mnie.`);
-*/
+
+// alert (`Cześć, mam na imię ${firstName}. 
+// Zaglądnij do konsoli aby zobaczyć więcej informacji o mnie.`);
