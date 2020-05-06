@@ -17,6 +17,7 @@
                 <a href="boxmodel.html">Box Model</a>
                 <a href="jednostki.html">Jednostki</a>
                 <a href="#stopka">Stopka</a>
+                <a href="style.css">style.css</a>
             </nav>
         </header>
     </div>
@@ -29,7 +30,7 @@
                 </header>
             </div>
             <section>
-                <h2>DIV</h2>
+                <h2 class="naglowek_h2">display</h2>
                 <article>
                     <h3>display:block</h3>
                     <p>section, article, div, nagłówki, paragrafy - są domyślnie wyświetlane block(owo).</p>
@@ -39,46 +40,51 @@
                     </div>
                     <div class="boxmodel_display_block">
                         To jest treść div'a o klasie BOX wyświetlany blockowo.
-                        To jest treść div'a o klasie BOX.  height:20px;
+                        To jest treść div'a o klasie BOX. height:20px;
                     </div>
                     <div class="boxmodel_display_block">
                         To jest treść div'a o klasie BOX wyświetlany blockowo.
-                        To jest treść div'a o klasie BOX.  height:20px;
+                        To jest treść div'a o klasie BOX. height:20px;
                     </div>
                 </article>
                 <article>
                     <h3>display:inline</h3>
-                    <p>a, img, span - to przykład wyświetlania inlinowo. Ważna uwaga, display:inline ignoruje height! Którą display:block respektuje a jakże.</p>
+                    <p>a, img, span - to przykład wyświetlania inlinowo. Ważna uwaga, display:inline ignoruje height!
+                        Którą display:block respektuje a jakże.</p>
                     <div class="boxmodel_display_inline">
-                        To jest treść div'a o klasie BOX. 
-                        To jest treść div'a o klasie BOX  wyświetlany inline. 
+                        To jest treść div'a o klasie BOX.
+                        To jest treść div'a o klasie BOX wyświetlany inline.
                     </div>
                     <div class="boxmodel_display_inline">
                         To jest treść div'a o klasie BOX.
-                        To jest treść div'a o klasie BOX wyświetlany inline. 
+                        To jest treść div'a o klasie BOX wyświetlany inline.
                     </div>
                     <div class="boxmodel_display_inline">
                         To jest treść div'a o klasie BOX.
-                        To jest treść div'a o klasie BOX wyświetlany inline. 
+                        To jest treść div'a o klasie BOX wyświetlany inline.
                     </div>
                 </article>
                 <article>
                     <h3>display:inlineblock</h3>
-                   <p>Można miksować własności inline czyli wyświetlanie elementów obok siebie oraz własności blockowe, czyli nadawanie wysokości i szerokości. </p>
+                    <p>Można miksować własności inline czyli wyświetlanie elementów obok siebie oraz własności blockowe,
+                        czyli nadawanie wysokości i szerokości. </p>
                     <div class="boxmodel_display_inlineblock">
                         To jest treść div'a o klasie BOX.
                         To jest treść div'a o klasie BOX.
-                    </div><div class="boxmodel_display_inlineblock">
+                    </div>
+                    <div class="boxmodel_display_inlineblock">
                         To jest treść div'a o klasie BOX.
                         To jest treść div'a o klasie BOX.
-                    </div><div class="boxmodel_display_inlineblock">
+                    </div>
+                    <div class="boxmodel_display_inlineblock">
                         To jest treść div'a o klasie BOX.
                         To jest treść div'a o klasie BOX.
                     </div>
                 </article>
                 <article>
                     <h3>min, max i overflow</h3>
-                   <p><b>overflow</b> - <i>hidden</i>, odcina to co poza wymiarami elementu.<br>Świetną własnością jest jeszcze <i>auto</i>, dzięki której uzyskujemy pasek przesuwny wewnątrz elementu. </p>
+                    <p><b>overflow</b> - <i>hidden</i>, odcina to co poza wymiarami elementu.<br>Świetną własnością jest
+                        jeszcze <i>auto</i>, dzięki której uzyskujemy pasek przesuwny wewnątrz elementu:</p>
                     <div class="boxmodel_display_overflow">
                         To jest treść div'a o klasie BOX.<br>
                         To jest treść div'a o klasie BOX.<br>
@@ -103,6 +109,265 @@
                         To jest treść div'a o klasie BOX.<br>
                     </div>
                     To jest poza div'em.
+                </article>
+            </section>
+            <section>
+                <h2 class="naglowek_h2">padding, border, margin</h2>
+                <article>
+                    <h3>padding</h3>
+                    <p>To tzw. wewnętrzny margines, odpowiada za to o ile mają być oddalone elementy, które mają
+                        padding.</p>
+                    <p>padding: TOP, RIGHT, BOTTOM, LEFT - w tą stronę!</p>
+                    <p>padding: 10px 20px - lustrzany zapis, góra/dół - 10px, lewo/prawo - 20px!</p>
+                </article>
+                <article>
+                    <h3>border</h3>
+                    <p class="border_solid_red">obraomwanie elementu, najprostszy zapis - border: 1px solid red; -
+                        obramowanie ciągłą, czerwoną kreską o szerokości 1 piksela.<br>Paragraf ma szerokość 50vw.</p>
+                </article>
+                <article>
+                    <h3>border - radius. zaokrąglenie elementów.</h3>
+                    <div class="border_radius">
+                        Kółko ;) można osiągnąć stosując border-radius:50%, albo 360px.<br><br>
+                        Kółko ;) <br>
+                        Kółko ;) <br>
+                        Kółko ;) <br>
+                        Kółko ;) <br>
+                        Kółko ;) <br>
+                        Kółko ;) <br>
+                        Kółko ;) <br>
+                        Kółko ;) <br>
+                        Kółko ;) <br>
+                        Kółko ;) <br>
+                        Kółko ;) <br>
+                        Kółko ;) <br>
+                        Kółko ;) <br>
+                        Kółko ;) <br>
+                        Kółko ;) <br>
+                        Kółko ;) <br>
+                    </div>
+
+                </article>
+                <article>
+                    <h3>margin</h3>
+                    <p>Margines przy liniowych wygląda jakby się sumował. Dla blockowych jest jeden. Czyli dwa blockowe
+                        z magrin 60px będą od siebie odsubięte o 60px, a dwa liniowe o 120px. <br>Sprawdzam:</p>
+                    <p>inline - margin: 60px. Widać, że od krawędzi jest 60px, ale od siebie 120px:</p>
+                    <div class="margin_inline">margin_inline_1</div>
+                    <div class="margin_inline">margin_inline_2</div>
+                    <p>block - margin: 60px: Widać, że w pionie jest tyle samo pomiędzy 1 i 2 co od lewej krawędzi,
+                        czyli 60px:</p>
+                    <div class="margin_block">margin_block_1</div>
+                    <div class="margin_block">margin_block_2</div>
+
+                    <p>Margin - o ile możemy się odsunąć od innych elementów. poniżej dla diva użyłem właściwości
+                        display: inlineblock.</p>
+                    <div class="margin_left">
+                        aqq 111
+                    </div>
+                    <div class="margin_left">
+                        aqq 222
+                    </div>
+                </article>
+                <article>
+                    <h3>margin auto</h3>
+                    <p>Margin auto wyśrodkowanie w poziomie.</p>
+                    <div class="margin_auto">
+                        <div class="margin_centered">aqq 111</div>
+                    </div>
+                    <div class="margin_auto">
+                        aqq 222
+                    </div>
+                </article>
+                <article>
+                    <h3>margin auto</h3>
+                    <p>Margin auto wyśrodkowanie w poziomie.</p>
+                    <div class="margin_auto">
+                        <div class="margin_centered">aqq 111</div>
+                    </div>
+                    <div class="margin_auto">
+                        aqq 222
+                    </div>
+                </article>
+            </section>
+            <section>
+                <h2 class="naglowek_h2">Box-sizing</h2>
+                <article>
+                    <h3>content-box</h3>
+                    <p>content-box jest to domyślna wartością box-sizingu. określa szerokość contentu dla elementu. Nie
+                        wpływa na padding czy border.</p>
+                    <div class="content_box">
+                        content-box content:
+                        <pre>
+    width: 350px;
+    height: 150px;
+    padding: 50px;
+    border: 25px solid hotpink;
+                        </pre>
+                        <span>Czyli 350 + 2*50 + 2*25 = 500px - width <br>i 150 + 2*50 + 2*25 = 300px.</span>
+                    </div>
+                </article>
+                <article>
+                    <h3>border-box</h3>
+                    <p>border-box to kolejna PETARDA! Świetna własność!</p>
+                    <div class="border_box_over">
+                        <p>border box over - użyłem tutaj overflow:auto, aby dodać przewijanie do elementu, który
+                            wychodzi poza ramy</p>
+                        <div class="border_box">
+                            border-box content:
+                            <pre>
+    width: 350px;
+    height: 150px;
+    padding: 50px;
+    border: 25px solid hotpink;
+    <b>box-sizing:border-box;</b>
+                        </pre>
+                            <p>Content zmalał. W powyższym wypadku treść się nie mieści. Dlaczego? Bo 350 - 2*50 - 2*25
+                                =
+                                150, więc szerokość =150px, ale wysokość=150 -2*50 *2*25 = 0!</p>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section>
+                <h2 class="naglowek_h2">Position</h2>
+                <article>
+                    <h3>
+                        position:static
+                    </h3>
+                    <div class="position_static">
+                        WTF
+                        <div>WTF2</div>
+                    </div>
+                    <div>test</div>
+                </article>
+                <article>
+                    <h3>
+                        position:relative + absolute
+                    </h3>
+                    <div class="position_relative">
+                        WTF relative
+                        <div class="position_absolute">WTF2 absolute</div>
+                    </div>
+                    <div>test</div>
+                </article>
+            </section>
+            <section>
+                <h2 class="naglowek_h2">z-index</h2>
+                <article>
+                    <h3>
+                        warstwy
+                    </h3>
+                    <div class="position_relative">
+                        WTF1 relative
+                        <div class="position_absolute2">WTF2 absolute</div>
+                        <div class="position_absolute2_second">WTF 3.</div>
+                    </div>
+                    <div>test</div>
+                </article>
+            </section>
+            <section>
+                <h2 class="naglowek_h2">fixed i sticky</h2>
+                <article>
+                    <h3>
+                        position fixed
+                    </h3>
+                    <div class="position_fixed">
+                        WTF1 position_fixed
+                    </div>
+                    <h3>
+                        position sticky
+                    </h3>
+                    <div class="position_absolute3">
+                        <div class="position_sticky">
+                            WTF1 position_sticky
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section>
+                <h2 class="naglowek_h2">Float</h2>
+                <article>
+                    <h3>
+                        opływanie
+                    </h3>
+                    <p>Maanam - „<i>Krakowski Spleen</i>”</p>
+                    <p>
+                        Chmury wisza nad miastem,<br>
+                        Ciemno I wstac nie moge.<br>
+                        Naciagam glebiej koldre,<br>
+                        Znikam, kule sie w sobie.<br>
+                        <img src="wtf.png" class="img_float_left" alt="logo szkolenia co ten frontend" />
+                        Powietrze, lepkie I geste,<br>
+                        Wilgoc osiada na twarzy.<br>
+                        Ptak smetny siedzi na drzewie,<br>
+                        Leniwie piora wygladza.<br>
+                        Ranek przechodzi w poludnie,<br>
+                        Bezwladnie mijaja godziny.<br>
+                        Czasem zabrzeczy mucha<br>
+                        W sidlach pajeczyny.<br>
+                        A slonce wysoko, wysoko<br>
+                        Swieci pilotom w oczy,<br>
+                        Ogrzewa niestrudzenie<br>
+                        Zimne, nibieskie przestrzenie.<br>
+                        Czekam na wiatr co roztrwoni<br>
+                        Ciemne, sklebione zaslone,<br>
+                        Stane wtedy na raz<br>
+                        Ze sloncem twarza w twarz.<br>
+                        Czekam na wiatr co roztrwoni<br>
+                        Ciemne, sklebione zaslone,<br>
+                        Stane wtedy na raz<br>
+                        Ze sloncem twarza w twarz.
+                    </p>
+                </article>
+                <article>
+                    <h3>Republika - „<i>Odchodząc</i>”</h3>
+                    <div class="republika_odchodzac">
+                        A więc stało się i odchodzisz<br>
+                        Tu są twoje książki i płyty<br>
+                        Możesz zabrać co chcesz<br>
+                        Najlepiej zabierz mnie<br>
+                        <br><br>
+                        Jestem lżejszy od fotografii<br>
+                        Z których będziesz mnie teraz wycinać<br>
+                        Będę milczał - i tak jestem martwy<br>
+                        <br><br>
+                        <div class="odchodzac">
+                            Odchodząc zabierz mnie<br>
+                            Odchodząc zabierz mnie<br>
+                            Odchodząc zabierz mnie<br>
+                            Odchodząc zabierz mnie<br>
+                        </div>
+                        <div class="odchodzac-right">
+                            Odchodząc zabierz mnie<br>
+                            Odchodząc zabierz mnie<br>
+                            Odchodząc zabierz mnie<br>
+                            Odchodząc zabierz mnie<br>
+                        </div>
+
+                        <br><br>
+                        W nowym życiu znajdziesz mi miejsce<br>
+                        Gdzieś na półce, czy parapecie<br>
+                        Raz na miesiąc kurz ze mnie zetrzesz<br>
+                        <br><br>
+                        Odchodząc zabierz mnie<br>
+                        Odchodząc zabierz mnie<br>
+                        Odchodząc zabierz mnie<br>
+                        Proszę weź mnie też...<br>
+                        <br><br>
+                        Odchodząc zabierz mnie<br>
+                        Odchodząc zabierz mnie<br>
+                        Odchodząc zabierz mnie<br>
+                        Proszę weź mnie też...<br>
+                        <br><br>
+                        Odchodząc zabierz mnie<br>
+                        Odchodząc zabierz mnie<br>
+                        Odchodząc zabierz mnie<br>
+                        <br><br>
+                        Proszę weź mnie też...<br>
+                        Proszę weź mnie też...
+                        <div class="clear"></div>
+                    </div>
                 </article>
             </section>
         </main>
