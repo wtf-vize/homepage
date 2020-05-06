@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona główna WTF</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="nav_header">
+        <header>
+            <nav class="top_menu">
+                <a href="index.html">Strona główna</a>
+                <a href="nauka.html">Nauka frontendu</a>
+                <a href="boxmodel.html">Box Model</a>
+                <a href="jednostki.html">Jednostki</a>
+                <a href="#stopka">Stopka</a>
+            </nav>
+        </header>
+    </div>
+
+    <div id="main">
+        <main>
+            <div id="main_header">
+                <header>
+                    <h1>Box model (h1)</h1>
+                </header>
+            </div>
+            <section>
+                <h2>DIV</h2>
+                <article>
+                    <h3>display:block</h3>
+                    <p>section, article, div, nagłówki, paragrafy - są domyślnie wyświetlane block(owo).</p>
+                    <div class="boxmodel_display_block">
+                        To jest treść div'a o klasie BOX wyświetlany blockowo.
+                        To jest treść div'a o klasie BOX. height:20px;
+                    </div>
+                    <div class="boxmodel_display_block">
+                        To jest treść div'a o klasie BOX wyświetlany blockowo.
+                        To jest treść div'a o klasie BOX.  height:20px;
+                    </div>
+                    <div class="boxmodel_display_block">
+                        To jest treść div'a o klasie BOX wyświetlany blockowo.
+                        To jest treść div'a o klasie BOX.  height:20px;
+                    </div>
+                </article>
+                <article>
+                    <h3>display:inline</h3>
+                    <p>a, img, span - to przykład wyświetlania inlinowo. Ważna uwaga, display:inline ignoruje height! Którą display:block respektuje a jakże.</p>
+                    <div class="boxmodel_display_inline">
+                        To jest treść div'a o klasie BOX. 
+                        To jest treść div'a o klasie BOX  wyświetlany inline. 
+                    </div>
+                    <div class="boxmodel_display_inline">
+                        To jest treść div'a o klasie BOX.
+                        To jest treść div'a o klasie BOX wyświetlany inline. 
+                    </div>
+                    <div class="boxmodel_display_inline">
+                        To jest treść div'a o klasie BOX.
+                        To jest treść div'a o klasie BOX wyświetlany inline. 
+                    </div>
+                </article>
+                <article>
+                    <h3>display:inlineblock</h3>
+                   <p>Można miksować własności inline czyli wyświetlanie elementów obok siebie oraz własności blockowe, czyli nadawanie wysokości i szerokości. </p>
+                    <div class="boxmodel_display_inlineblock">
+                        To jest treść div'a o klasie BOX.
+                        To jest treść div'a o klasie BOX.
+                    </div><div class="boxmodel_display_inlineblock">
+                        To jest treść div'a o klasie BOX.
+                        To jest treść div'a o klasie BOX.
+                    </div><div class="boxmodel_display_inlineblock">
+                        To jest treść div'a o klasie BOX.
+                        To jest treść div'a o klasie BOX.
+                    </div>
+                </article>
+                <article>
+                    <h3>min, max i overflow</h3>
+                   <p><b>overflow</b> - <i>hidden</i>, odcina to co poza wymiarami elementu.<br>Świetną własnością jest jeszcze <i>auto</i>, dzięki której uzyskujemy pasek przesuwny wewnątrz elementu. </p>
+                    <div class="boxmodel_display_overflow">
+                        To jest treść div'a o klasie BOX.<br>
+                        To jest treść div'a o klasie BOX.<br>
+                        To jest treść div'a o klasie BOX.<br>
+                        To jest treść div'a o klasie BOX.<br>
+                        To jest treść div'a o klasie BOX.<br>
+                        To jest treść div'a o klasie BOX.<br>
+                        To jest treść div'a o klasie BOX.<br>
+                        To jest treść div'a o klasie BOX.<br>
+                        To jest treść div'a o klasie BOX.<br>
+                        To jest treść div'a o klasie BOX.<br>
+                        To jest treść div'a o klasie BOX.<br>
+                        To jest treść div'a o klasie BOX.<br>
+                        To jest treść div'a o klasie BOX.<br>
+                        To jest treść div'a o klasie BOX.<br>
+                        To jest treść div'a o klasie BOX.<br>
+                        To jest treść div'a o klasie BOX.<br>
+                        To jest treść div'a o klasie BOX.<br>
+                        To jest treść div'a o klasie BOX.<br>
+                        To jest treść div'a o klasie BOX.<br>
+                        To jest treść div'a o klasie BOX.<br>
+                        To jest treść div'a o klasie BOX.<br>
+                    </div>
+                    To jest poza div'em.
+                </article>
+            </section>
+        </main>
+    </div>
+    <div id="stopka">
+        <footer class="stopka">
+            <p>
+                <em>Szkolenie <a href="https://cotenfrontend.pl/" target="_blank">Co Ten Frontend</a> 2020 r.</em>
+
+                <a href='#top' class="back_to_top">Wróć na górę strony (↑)</a>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
