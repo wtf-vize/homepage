@@ -9,7 +9,46 @@ Jestem ${roznica} lata starszy od żony, a te informacje zostały wypisane przy 
 // alert (`Cześć, mam na imię ${firstName}.
 // Zaglądnij do konsoli aby zobaczyć więcej informacji o mnie.`);
 
+<<<<<<< HEAD
+const txt = document.querySelector(".paragraf--js");
+console.log(txt);
+txt.innerHTML =
+  'A najlepsze są wina robione z "p a s j ą", a ten tekst jest napisany przy użyciu JS i innerHTML.';
+
+function calculate(myNumber) {
+    console.log(`Dostałam ${myNumber}`);
+
+    return myNumber * 7;
+}
+
+const myResult = calculate(8);
+console.log (myResult);
+console.log (`"__________________"\n"=================="`)
+
+function nazwaFunkcji(nazwaParametru) {
+    console.log (`Dostałam ${nazwaParametru}`)
+    return nazwaParametru*7
+}
+const mojWynik = nazwaFunkcji(myAge)
+
+console.log(mojWynik)
+
+console.log (`"__________________"\n"=================="`)
+
+function hello (imie, wiek) {
+    console.log (`Cześć jest ${imie} i mam ${wiek} lat`)
+}
+hello ('Marek', 39)
+
+if (!(myAge>wifeAge)) {
+    console.log (`${firstName} jest starszy od ${wifeName}.`)
+}
+else {
+    console.log(`${wifeName} jest starsza od ${firstName}.`)
+}
+=======
 
 const beret = document.querySelector('.main_heading--js')
 console.log  (beret)
-beret.innerHTML = 'oj'
+beret.innerHTML = 'Svojskie winko :)'
+>>>>>>> efcd4dfa34dc650d807692b1f5fa7445ae7fbc7b
