@@ -1,14 +1,13 @@
-const firstName = "Marek";
-const wifeName = "Magda";
+const firstName ='Marek';
+const wifeName ='Magda';
 const myAge = 40;
 const wifeAge = 38;
 const roznica = myAge - wifeAge;
-console.log(`Mam na imię ${firstName} i mam prawie ${myAge} lat.\nMoja żona ma na imię ${wifeName} i ma ${wifeAge} lat.
-Jestem ${roznica} lata starszy od żony, a te informacje zostały wypisane przy użyciu skryptu main.js.`);
+console.log (`Mam na imię ${firstName} i mam prawie ${myAge} lat.\nMoja żona ma na imię ${wifeName} i ma ${wifeAge} lat.
+Jestem ${roznica} lata starszy od żony, a te informacje zostały wypisane przy użyciu skryptu main.js.` );
 
-// alert (`Cześć, mam na imię ${firstName}.
-// Zaglądnij do konsoli aby zobaczyć więcej informacji o mnie.`);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 const txt = document.querySelector(".paragraf--js");
 console.log(txt);
@@ -52,3 +51,7 @@ const beret = document.querySelector('.main_heading--js')
 console.log  (beret)
 beret.innerHTML = 'Svojskie winko :)'
 >>>>>>> efcd4dfa34dc650d807692b1f5fa7445ae7fbc7b
+=======
+// alert (`Cześć, mam na imię ${firstName}. 
+// Zaglądnij do konsoli aby zobaczyć więcej informacji o mnie.`);
+>>>>>>> parent of efcd4df... zmiany po lekcji JS, DOM i BEM
