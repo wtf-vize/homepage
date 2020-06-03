@@ -9,6 +9,7 @@ Jestem ${roznica} lata starszy od żony, a te informacje zostały wypisane przy 
 // alert (`Cześć, mam na imię ${firstName}.
 // Zaglądnij do konsoli aby zobaczyć więcej informacji o mnie.`);
 
+<<<<<<< HEAD
 const txt = document.querySelector(".paragraf--js");
 console.log(txt);
 txt.innerHTML =
@@ -45,3 +46,9 @@ if (!(myAge>wifeAge)) {
 else {
     console.log(`${wifeName} jest starsza od ${firstName}.`)
 }
+=======
+
+const beret = document.querySelector('.main_heading--js')
+console.log  (beret)
+beret.innerHTML = 'oj'
+>>>>>>> efcd4dfa34dc650d807692b1f5fa7445ae7fbc7b
