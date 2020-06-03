@@ -50,5 +50,5 @@ else {
 
 const beret = document.querySelector('.main_heading--js')
 console.log  (beret)
-beret.innerHTML = 'oj'
+beret.innerHTML = 'Svojskie winko :)'
 >>>>>>> efcd4dfa34dc650d807692b1f5fa7445ae7fbc7b
