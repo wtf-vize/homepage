@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strona główna WTF</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div id="nav_header">
+      <header>
+        <nav class="navigation">
+          <a
+            class="navigation__link navigation__link--homepage"
+            href="index.html"
+            >Strona główna</a
+          >
+          <a class="navigation__link" href="nauka.html">Nauka frontendu</a>
+          <a class="navigation__link" href="boxmodel.html">Box Model</a>
+          <a
+            class="navigation__link navigation__link--active"
+            href="jednostki.html"
+            >Jednostki</a
+          >
+          <a class="navigation__link" href="#stopka">Stopka</a>
+          <a class="navigation__link" href="style.css">style.css</a>
+          <a class="navigation__link" href="formularz.html">Formularz</a>
+        </nav>
+      </header>
+    </div>
+
+    <div id="main">
+      <main>
+        <div id="main_header">
+          <header>
+            <h1>Formularz (h1)</h1>
+          </header>
+        </div>
+        <form>
+          <p>
+            <label for="imie">Wpisz imię: </label>
+            <input id="imie" placeholder="Wpisz swoje imię..." name="imie" />
+          </p>
+          <fieldset>
+            <legend>Adres:</legend>
+            <p>
+                <label>Ulica:
+                    <input
+                        class="form__item"
+                        id="ulica"
+                        name="ulica"
+                        placeholder="Wprowadź nazwę ulicy:">
+                </label>
+            </p>
+            <p>
+                <label>Miasto:
+                    <input
+                        class="form__item"
+                        id="miasto"
+                        name="miasto"
+                        placeholder="Wprowadź nazwę miasta:">
+                </label>
+            </p>
+          </fieldset>   
+
+          <fieldset>
+              <legend>Radio button. Ulubione lody:</legend>
+              <p><label><input type="radio" name="lody" value="czekoladowe">Czekoladowe</label></p>
+              <p><label><input type="radio" name="lody" value="bakaliowe">Bakaliowe</label></p>
+              <p><label><input type="radio" name="lody" value="smietankowe">Śmietankowe</label></p>
+              <p><label><input type="radio" name="lody" value="truskawkowe">Truskawkowe</label></p>
+          </fieldset>
+
+          <fieldset>
+            <legend>Check-box. Ulubione lody:</legend>
+            <p><label><input type="checkbox" name="check_lody" value="czekoladowe">Czekoladowe</label></p>
+            <p><label><input type="checkbox" name="check_lody" value="bakaliowe">Bakaliowe</label></p>
+            <p><label><input type="checkbox" checked name="check_lody" value="smietankowe">Śmietankowe</label></p>
+            <p><label><input type="checkbox" name="check_lody" value="truskawkowe">Truskawkowe</label></p>
+        </fieldset>
+
+
+
+        <p>
+            <label>Ulubiona liczba:
+                <input
+                    class="form__item"
+                    id="liczba"
+                    name="liczba"
+                    placeholder="Wprowadź swoją ulubioną liczbę:"
+                    type="number">
+            </label>
+        </p>
+
+        <p>
+            <label>Telefon:
+                <input
+                    class="form__item"
+                    id="telefon"
+                    name="telefon"
+                    placeholder="Wprowadź swój nr telefonu:"
+                    type="tel">
+            </label>
+        </p>
+
+        <p>
+            <label>email:
+                <input
+                    class="form__item"
+                    id="email"
+                    name="email"
+                    placeholder="Wprowadź swój nr email:"
+                    type="email">
+            </label>
+        </p>
+
+        <p>
+            <label>Range:
+                <input
+                    class="form__item"
+                    id="range"
+                    name="range"
+                    min="0"
+                    max="100"
+                    step="20"
+                    type="range">
+            </label>
+        </p>
+
+        <p>
+            <label>Hasło:
+                <input
+                    class="form__item"
+                    id="haslo"
+                    name="haslo"
+                    placeholder="Wpisz hasło."
+                    type="password">
+            </label>
+        </p>
+
+        <p>
+            <label for="band">Wybierz ulubiny zespół: </label>
+                <select id="band">
+                    <option value="band0">--</option>
+                    <option value="band1">Kult</option>
+                    <option value="band2">Lao Che</option>
+                    <option value="band3">T. Love</option>
+                </select>
+        </p>
+
+        <p>
+            <label>Załącznik:
+                <input
+                    class="form__item"
+                    id="plik"
+                    name="plik"
+                    placeholder="Wskaż plik."
+                    type="file">
+            </label>
+        </p>
+
+        <p>
+            <label for="textArea">TextArea:</label>
+                <textarea id="textArea">aqq</textarea>
+        
+        </p>
+
+        <p><input name="wyslij" type="submit" value="Wyślij"></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </form>
+      </main>
+    </div>
+    <div id="stopka">
+      <footer class="stopka">
+        <p>
+          <em
+            >Szkolenie
+            <a href="https://cotenfrontend.pl/" target="_blank"
+              >Co Ten Frontend</a
+            >
+            2020 r.</em
+          >
+
+          <a href="#top" class="back_to_top">Wróć na górę strony (↑)</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
