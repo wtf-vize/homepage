@@ -9,12 +9,15 @@ body {
   
 =======
 >>>>>>> efcd4dfa34dc650d807692b1f5fa7445ae7fbc7b
+<<<<<<< HEAD
 =======
     color: #fff;
     background: #2d2241;
     margin: 0;
     padding: 0;
 >>>>>>> parent of efcd4df... zmiany po lekcji JS, DOM i BEM
+=======
+>>>>>>> 3dac8cf571e205404f7b9878ca01e1c0a7918f42
 }
 
 h1 {
@@ -72,9 +75,12 @@ main{
   width:1000px;
   margin: 50px auto;
 >>>>>>> efcd4dfa34dc650d807692b1f5fa7445ae7fbc7b
+<<<<<<< HEAD
 =======
     margin-top: 100px;
 >>>>>>> parent of efcd4df... zmiany po lekcji JS, DOM i BEM
+=======
+>>>>>>> 3dac8cf571e205404f7b9878ca01e1c0a7918f42
 }
 
 /* ID STOP */
@@ -83,12 +89,42 @@ main{
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3dac8cf571e205404f7b9878ca01e1c0a7918f42
 .article{
   color: hotpink;
 }
 .article__description {
   color:red;
 }
+<<<<<<< HEAD
+=======
+.comic-sans-font {
+  font-family: "Comic Sans MS";
+}
+
+.navigation {
+  background: #2d2241;
+  border-bottom: 1px solid #edf2f4;
+  /* padding: 0 0 0 40px; */
+  box-sizing: border-box;
+  min-height: 40px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 100;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  flex-wrap:wrap;
+}
+
+.navigation__link,
+.stopka a {
+  color: #ffba08;
+=======
+>>>>>>> 3dac8cf571e205404f7b9878ca01e1c0a7918f42
 .comic-sans-font {
   font-family: "Comic Sans MS";
 }
@@ -144,10 +180,24 @@ main{
 .navigation__link--homepage{
   text-decoration: underline;
 >>>>>>> efcd4dfa34dc650d807692b1f5fa7445ae7fbc7b
+<<<<<<< HEAD
+=======
 }
 .navigation__link--active{
   border:1px solid white;
 
+<<<<<<< HEAD
+.navigation__link {
+  margin-right:30px;
+}
+.navigation__link--homepage{
+  text-decoration: underline;
+>>>>>>> 3dac8cf571e205404f7b9878ca01e1c0a7918f42
+}
+.navigation__link--active{
+  border:1px solid white;
+
+<<<<<<< HEAD
 <<<<<<< HEAD
 .navigation__link {
   margin-right:30px;
@@ -161,6 +211,8 @@ main{
 }
 
 <<<<<<< HEAD
+=======
+>>>>>>> 3dac8cf571e205404f7b9878ca01e1c0a7918f42
 =======
 >>>>>>> efcd4dfa34dc650d807692b1f5fa7445ae7fbc7b
 }
@@ -179,6 +231,7 @@ main{
 
 =======
 >>>>>>> efcd4dfa34dc650d807692b1f5fa7445ae7fbc7b
+<<<<<<< HEAD
 =======
 .top_menu a {
     padding: 0 20px 0 0;
@@ -193,6 +246,8 @@ main{
     bottom: 0px;
     z-index: 100;
 >>>>>>> parent of efcd4df... zmiany po lekcji JS, DOM i BEM
+=======
+>>>>>>> 3dac8cf571e205404f7b9878ca01e1c0a7918f42
 }
 
 .stopka p {
@@ -208,9 +263,12 @@ main{
   margin-left:60px;
 =======
 >>>>>>> efcd4dfa34dc650d807692b1f5fa7445ae7fbc7b
+<<<<<<< HEAD
 =======
     margin-left: 50px;
 >>>>>>> parent of efcd4df... zmiany po lekcji JS, DOM i BEM
+=======
+>>>>>>> 3dac8cf571e205404f7b9878ca01e1c0a7918f42
 }
 /* CLASS STOP */
 

@@ -9,6 +9,9 @@ Jestem ${roznica} lata starszy od żony, a te informacje zostały wypisane przy 
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3dac8cf571e205404f7b9878ca01e1c0a7918f42
 const txt = document.querySelector(".paragraf--js");
 console.log(txt);
 txt.innerHTML =
@@ -51,7 +54,10 @@ const beret = document.querySelector('.main_heading--js')
 console.log  (beret)
 beret.innerHTML = 'Svojskie winko :)'
 >>>>>>> efcd4dfa34dc650d807692b1f5fa7445ae7fbc7b
+<<<<<<< HEAD
 =======
 // alert (`Cześć, mam na imię ${firstName}. 
 // Zaglądnij do konsoli aby zobaczyć więcej informacji o mnie.`);
 >>>>>>> parent of efcd4df... zmiany po lekcji JS, DOM i BEM
+=======
+>>>>>>> 3dac8cf571e205404f7b9878ca01e1c0a7918f42
